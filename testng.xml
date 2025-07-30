@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Emergent Platform Test Suite">
+    <listeners>
+        <listener class-name="com.emergent.utils.TestListener"/>
+    </listeners>
+    
+    <test name="Authentication Tests">
+        <classes>
+            <class name="com.emergent.tests.AuthenticationTest"/>
+        </classes>
+    </test>
+    
+    <test name="Project Creation Tests">
+        <classes>
+            <class name="com.emergent.tests.ProjectCreationTest"/>
+        </classes>
+    </test>
+    
+    <test name="AI Agent Interaction Tests">
+        <classes>
+            <class name="com.emergent.tests.AIAgentInteractionTest"/>
+        </classes>
+    </test>
+    
+    <test name="Code Generation Tests">
+        <classes>
+            <class name="com.emergent.tests.CodeGenerationTest"/>
+        </classes>
+    </test>
+    
+    <test name="Testing Functionality Tests">
+        <classes>
+            <class name="com.emergent.tests.TestingFunctionalityTest"/>
+        </classes>
+    </test>
+    
+    <test name="Deployment Tests">
+        <classes>
+            <class name="com.emergent.tests.DeploymentTest"/>
+        </classes>
+    </test>
+    
+    <test name="Project Settings Tests">
+        <classes>
+            <class name="com.emergent.tests.ProjectSettingsTest"/>
+        </classes>
+    </test>
+</suite>
