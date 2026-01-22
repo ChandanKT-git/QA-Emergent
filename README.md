@@ -1,4 +1,4 @@
-# Emergent.sh QA Testing Project  
+# Emergent.sh QA Testing Project
 
 This project contains automated test cases for the Emergent.sh platform using Selenium, Java, and TestNG.
 
